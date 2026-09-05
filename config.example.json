@@ -1,0 +1,18 @@
+{
+  "_說明": "複製本檔改名成 config.json 再填。這裡的值都不是密鑰，密鑰放 .env。",
+  "channel_id": "UC 開頭的 YouTube 頻道 ID",
+  "channel_url": "https://www.youtube.com/@你的頻道代號",
+  "display_name": "通知卡片上顯示的頻道全名",
+  "short_name": "通知標題用的簡稱",
+  "bot_label": "通知卡片頁尾顯示的機器人名稱",
+  "owner_user_id": "開台通知要 tag 的主播 Discord user ID",
+  "mention_role_ids": [
+    "開台通知要 tag 的身分組 ID，可放多個，不需要就留空陣列"
+  ],
+  "fan_channel_id": "粉絲直播提醒頻道的 Discord channel ID",
+  "admin_channel_id": "只有管理者看得到的管理頻道 channel ID",
+  "reaction_emoji": "發完通知要加的自訂 emoji，格式 名稱:ID，不需要就留空字串",
+  "admin_user_ids": [
+    "按 👍 才算數的管理者 Discord user ID，可放多個"
+  ]
+}
